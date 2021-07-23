@@ -1,6 +1,6 @@
-Together these scripts provide an analysis pipeline to examine whether a locus (mutation/genomic site) has an impact on a phenotype and to invetigate the mechanims whereby a causal locus exerts its effect.
+Together this pakage provides an analysis pipeline to examine whether a locus (mutation,genomic region, gene) has an impact on a phenotype. If a significant association is detected. Molecular insight will be provided for the path whereby the locus contributes to the phenotype.
 
-To run this analysis pipeline, simply pass the locus coordinate and trait file name to the manager_p1.sh script.
+To do a serach, enter the locus coordinate and trait file name to the wrapper script.
 
 Example1 with genomic position: 
 bash manager_p1.sh chr5:95665720 BMI_PMID_30239722.gz
