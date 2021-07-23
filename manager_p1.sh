@@ -5,9 +5,9 @@
 
 #This analysis pipeline assumes trait files are in ./inputs directory and besd files are in ./besds/ directory
 
-#Example1 with genomic position: bash manager_p1.sh chr5:95665720 BMI_PMID_30239722.gz
+#Example1 with genomic position: bash manager_p1.sh chr5:95665720 BMI_PMID30239722
 
-#Example2 with genomic range: bash manager_p1.sh chr15:48888460-48905309 Standing_height_UKBB.gz
+#Example2 with genomic range: bash manager_p1.sh chr19:45409039-45412650 LDL_PMID24097068
 
 
 locus=$1
