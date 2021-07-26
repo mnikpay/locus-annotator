@@ -1,4 +1,4 @@
-Together this package provides an analysis pipeline to examine whether a locus (mutation,genomic region, gene) has an impact on a phenotype. If a significant association is detected. Molecular insight will be provided for the path whereby the locus contributes to the phenotype.
+This package provides an analysis pipeline to examine whether a locus (mutation,genomic region, gene) has an impact on a phenotype. If a significant association is detected. Molecular insight will be provided for the path whereby the locus contributes to the phenotype.
 
 To conduct a search, pass the locus coordinate and the phenotype name to the wrapper script.
 
