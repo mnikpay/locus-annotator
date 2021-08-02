@@ -14,8 +14,8 @@ then access it as:
 unzip locus_annotator.zip
 
 chmod -R 700 ./locus_annotator
-
 cd ./locus_annotator
+
 
 
 A number of QTL files can be obtained from the following links:
