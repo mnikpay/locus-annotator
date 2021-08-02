@@ -10,9 +10,13 @@ The entire package with input files/exectubales can be obtained from the followi
 https://filr.ottawaheart.ca/ssf/s/readFile/share/2454/2372143190551438567/publicLink/locus_annotator.zip
 
 then access it as:
+
 unzip locus_annotator.zip
+
 chmod -R 700 ./locus_annotator
+
 cd ./locus_annotator
+
 
 A number of QTL files can be obtained from the following links:
 https://filr.ottawaheart.ca/ssf/s/readFile/share/1438/6705413317368203034/publicLink/QTL_data.zip
