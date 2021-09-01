@@ -13,7 +13,7 @@ The underlying method is described in the [manuscript](https://www.preprints.org
 
 There are situations when a biologist wants to investigates the function of a locus. e.g.
 
-- Does the rare variant X cause the disease Y?
+* Does the rare variant X cause the disease Y?
 * How is the gene Z being regulated? What would be the consequences of perturbation in its function?
 * What is the function of this unannotated genomic region?
 
