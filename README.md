@@ -48,21 +48,7 @@ The outcome of the analysis is a summary statistics text file, for instance this
 | chr19:45409039-45412650 | Causality | cg13375295     | PMID30401456    | LDL     | PMID24097068   | -1.53 | 0.270176  | 1.47E-08 | 3      |
 | chr19:45409039-45412650 | Causality | APOE.2937.10.2 | PMID29875488    | LDL     | PMID24097068   | 0.78  | 0.0400764 | 1.23E-83 | 3      |
 
-```
-Printing MR results
 
-SearchID Test Exposure_Probe Exposure_Source Outcome Outcome_Source B SE P N_SNPs
-chr19:45409039-45412650 Causality cg13375295 PMID30401456 LDL PMID24097068 -1.53053 0.270176 1.47069e-08 3
-chr19:45409039-45412650 Causality APOE.2937.10.2 PMID29875488 LDL PMID24097068 0.776516 0.0400764 1.23353e-83 3
-
-
-Printing interaction results
-
-SearchID Test Exposure_Probe Exposure_Source Outcome_Probe Outcome_Source B SE P N_SNPs
-chr19:45409039-45412650 Pleiotropy cg13375295 PMID30401456 APOE.2937.10.2 PMID29875488 -4.44536 0.607779 2.59113e-13 5
-chr19:45409039-45412650 Causality cg13375295 PMID30401456 APOE.2937.10.2 PMID29875488 -3.54592 0.603714 4.26666e-09 4
-
-```
 The first coulmn indicates your serach id (the genomic coordinate of the locus, based on build GRCh37). The second column indicates the type of test:
 * Causality: which is performed by removing pleiotropic SNPs from the instrument
 * Pleiotropy: which is performed by keeping pleiotropic SNPs from the instrument
