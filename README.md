@@ -2,7 +2,6 @@
 
 Understanding the function of a locus using the knowledge available at single-nucleotide polymorphisms (SNPs)
 
-# Table of contents
    * [Description](#description)
    * [Getting Started](#getting-started)
    * [Interpreting the results](#interpreting-the-results)
