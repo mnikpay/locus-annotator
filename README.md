@@ -42,6 +42,12 @@ bash wrapper.sh chr19:45409039-45412650 LDL_PMID24097068
 ## Interpreting the results
 
 The outcome of the analysis is a summary statistics text file, for instance this is the output from the Example 2:
+
+| SearchID                | Test      | Exposure_Probe | Exposure_Source | Outcome | Outcome_Source | B     | SE        | P        | N_SNPs |
+|-------------------------|-----------|----------------|-----------------|---------|----------------|-------|-----------|----------|--------|
+| chr19:45409039-45412650 | Causality | cg13375295     | PMID30401456    | LDL     | PMID24097068   | -1.53 | 0.270176  | 1.47E-08 | 3      |
+| chr19:45409039-45412650 | Causality | APOE.2937.10.2 | PMID29875488    | LDL     | PMID24097068   | 0.78  | 0.0400764 | 1.23E-83 | 3      |
+
 ```
 Printing MR results
 
