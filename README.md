@@ -3,13 +3,14 @@ Understanding the function of a locus using the knowledge available at single-nu
 The underlying method is described in the [manuscript](https://www.preprints.org/manuscript/202108.0084/v1). This readme document addresses technical aspects of the analysis:
 
 [Description](#description)
+
 [Getting Started](#getting-started)
      
-     [Interpreting the results](#interpreting-the-results)
+  [Interpreting the results](#interpreting-the-results)
      
-     [Input files](#input-files)
+   [Input files](#input-files)
      
-     [Functional data](#functional-data)
+   [Functional data](#functional-data)
 
 
 ## Description
