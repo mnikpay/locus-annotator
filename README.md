@@ -2,11 +2,11 @@
 
 Understanding the function of a locus using the knowledge available at single-nucleotide polymorphisms (SNPs)
 
-  Markup : 1. [Description](#description)
-   * [Getting Started](#getting-started)
-   * [Interpreting the results](#interpreting-the-results)
-   * [Input files](#input-files)
-   * [Functional data](#functional-data)
+   - [Description](#description)
+   - [Getting Started](#getting-started)
+   - [Interpreting the results](#interpreting-the-results)
+   - [Input files](#input-files)
+   - [Functional data](#functional-data)
 
 
 
