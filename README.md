@@ -25,7 +25,6 @@ unzip locus_annotator.zip
 chmod -R 700 ./locus_annotator
 
 cd ./locus_annotator
-
 ```
 To conduct a search, the locus coordinate and the phenotype name must be passed to the wrapper script.
 
