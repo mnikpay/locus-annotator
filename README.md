@@ -80,7 +80,7 @@ N: Sample size
 
 ```
 
-GWAS summary data files can be obtained from the previous studies and they can be kept in gz format. [OpenGWAS](https://gwas.mrcieu.ac.uk/) also provides a collection of such files which can be converted to the above format, using this [script](locus-annotator/obtain_opengwas_file.sh):
+GWAS summary data files can be obtained from the previous studies and they can be kept in gz format. [OpenGWAS](https://gwas.mrcieu.ac.uk/) also provides a collection of such files which can be converted to the above format, using this [script](obtain_opengwas_file.sh):
 
 Example
 ```
