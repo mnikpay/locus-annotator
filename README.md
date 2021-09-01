@@ -41,13 +41,13 @@ bash wrapper.sh chr19:45409039-45412650 LDL_PMID24097068
 
 ## Interpreting the results
 
-The outcome of the analysis is a summary statistics text file, for instance this is the output from the Example 2:
+The outcome of the analysis (summary statistics) is provided as a csv file, for instance this is the output from the Example 1:
 
 | SearchID      | Test      | Exposure         | Source       | Outcome | Outcome      | B     | SE        | P        | NSNPs |
 |---------------|-----------|------------------|--------------|---------|--------------|-------|-----------|----------|-------|
 | chr5:95665720 | Causality | PCSK1.13388.57.3 | PMID29875488 | BMI     | PMID30239722 | -0.02 | 0.0020543 | 4.09E-19 | 17    |
 
-**Description of the columns:**
+The column names are described below:
 ```
 SearchID: The genomic coordinate of the locus (based on GRCh37)
 
@@ -70,12 +70,7 @@ P: p-value (significance of estimated beta)
 NSNPs: Number of the SNPs in the instrument for the MR analysis
 ```
 
-
-The first coulmn indicates your serach id (the genomic coordinate of the locus, based on build GRCh37). The second column indicates the type of test:
-* Causality: which is performed by removing pleiotropic SNPs from the instrument
-* Pleiotropy: which is performed by keeping pleiotropic SNPs from the instrument
-
-Test of causality allows to undrstand whether chnage in the level of the biomarker (probe/functional feature) impacts a phenotype. In this context, a positive beta indicates a positive association and a negative beta indicates a rverse assocition. For instance, in the example above, we can conclude higher level of PCSK1 is associated with lower BMI. Test of pliotropy is appropriate in sitatiation where the pipeline has identified several functional features and you want to know whether they are being regulated by the same set of SNPs or not.
+Test of causality allows to undrstand whether chnage in the level of the biomarker (probe/functional feature) impacts a phenotype. In this context, a positive beta indicates a positive association and a negative beta indicates a rverse assocition. For instance, in the example above, we can conclude higher level of PCSK1 is associated with lower BMI. Test of pliotropy is appropriate in sitatiation where the pipeline has identified several functional features and you want to know whether they are being regulated by the same set of SNPs or not. The diffrences between the two is that under the causality scenario, we rmoved the pliotropic SNPs from the instrumnet; wherease, in pleiotropy test we keep them in the isntrument.
 
 
 ## Input files
