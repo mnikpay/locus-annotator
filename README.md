@@ -63,6 +63,11 @@ chr19:45409039-45412650 Pleiotropy cg13375295 PMID30401456 APOE.2937.10.2 PMID29
 chr19:45409039-45412650 Causality cg13375295 PMID30401456 APOE.2937.10.2 PMID29875488 -3.54592 0.603714 4.26666e-09 4
 
 ```
+The first coulmn indicates your serach id (the genomic coordinate of the locus, based on build GRCh37). The second column indicates the type of test:
+* Causality: which is performed by removing pleiotropic SNPs from the instrument
+* Pleiotropy: which is performed by keeping pleiotropic SNPs from the instrument
+
+Test of causality allows to undrstand whether chnage in the level of the biomarker (probe/functional feature) impacts a phenotype. In this context, a positive beta indicates a positive association and a negative beta indicates a rverse assocition. For instance, in the example above, we can conclude higher level of PCSK1 is associated with lower BMI. 
 
 
 ## Input files
