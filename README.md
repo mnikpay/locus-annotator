@@ -2,6 +2,15 @@
 
 Understanding the function of a locus using the knowledge available at single-nucleotide polymorphisms (SNPs)
 
+# Table of contents
+   * [Description](#description)
+   * [Getting Started](#getting-started)
+   * [Interpreting the results](#interpreting-the-results)
+   * [Input files](#input-files)
+   * [Functional data](#functional-data)
+   * [Acknowledgments](#acknowledgments)
+
+
 ## Description
 
 There are situations when a biologist wants to invetigates the function of a locus. e.g.
