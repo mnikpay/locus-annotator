@@ -50,14 +50,23 @@ The outcome of the analysis is a summary statistics text file, for instance this
 **Description of the columns:**
 ```
 SearchID: The genomic coordinate of the locus (based on GRCh37)
+
 Test: The type of test (causality or pleiotropy)
+
 Exposure: A biomarker/functional feature
+
 Source: The source where the GWAS data for the exposure was obtained
+
 Outcome: A trait or a second biomarker/functional feature
+
 Source: The source where the GWAS data for the outcome was obtained
+
 B: Estimated effect size (beta regression coefficient)
+
 SE: Estimated standard error of beta
+
 P: p-value (significance of estimated beta)
+
 NSNPs: Number of the SNPs in the instrument for the MR analysis
 ```
 
