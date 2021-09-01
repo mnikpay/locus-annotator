@@ -2,7 +2,7 @@
 
 #To download and generate GWAS data file for the locus annotator from the OpenGWAS database
  
-#this package assumes bcftools is accessible through your path
+#This script assumes bcftools is accessible through your path
 
 i=$1
 
