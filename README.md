@@ -12,11 +12,11 @@ Understanding the function of a locus using the knowledge available at single-nu
 
 ## Description
 
-There are situations when a biologist wants to invetigates the function of a locus. e.g.
+There are situations when a biologist wants to investigates the function of a locus. e.g.
 
-* Does the rare varaiant X cause the disease Y?
-* How is the gene Z being regulated? What would be the consequences of perturbution in its fuction?
-* What is the function of this unaanotated genomic region?
+* Does the rare variant X cause the disease Y?
+* How is the gene Z being regulated? What would be the consequences of perturbation in its function?
+* What is the function of this unannotated genomic region?
 
 This UNIX package was designed with the aim to address these issues.
 
@@ -24,7 +24,7 @@ For more information, please read the [manuscript](https://www.preprints.org/man
 
 ## Getting Started
 
-The entire package with input files/exectubales can be obtained from [here](https://filr.ottawaheart.ca/ssf/s/readFile/share/2454/2372143190551438567/publicLink/locus_annotator.zip)
+The entire package with input files/executables can be obtained from [here](https://filr.ottawaheart.ca/ssf/s/readFile/share/2454/2372143190551438567/publicLink/locus_annotator.zip)
 
 then access it as:
 ```
@@ -78,12 +78,12 @@ P: p-value (significance of estimated beta)
 NSNPs: Number of the SNPs in the instrument for the MR analysis
 ```
 
-Test of causality allows to undrstand whether chnage in the level of the biomarker (probe/functional feature) impacts a phenotype. In this context, a positive beta indicates a positive association and a negative beta indicates a rverse assocition. For instance, in the example above, we can conclude higher level of PCSK1 is associated with lower BMI. Test of pliotropy is appropriate in sitatiation where the pipeline has identified several functional features and you want to know whether they are being regulated by the same set of SNPs or not. The diffrences between the two is that under the causality scenario, we rmoved the pliotropic SNPs from the instrumnet; wherease, in pleiotropy test we keep them in the isntrument.
+Test of causality allows to understand whether change in the level of the biomarker (probe/functional feature) impacts a phenotype. In this context, a positive beta indicates a positive association and a negative beta indicates a reverse association. For instance, in the example above, we can conclude higher level of PCSK1 is associated with lower BMI. Test of pleiotropy is appropriate in situation where the pipeline has identified several functional features and you want to know whether they are being regulated by the same set of SNPs or not. The differences between the two is that under the causality scenario, we removed the pleiotropic SNPs from the instrument; whereas, in pleiotropy test we keep them in the instrument.
 
 
 ## Input files
 
-Input files for functional features are automatically generated during the analysis from the SMR input files; however, you need to provided the input file (GWAS summary data) for the phenotype of interest and pass the name of the file (e.g. BMI_PMID30239722) as an agrument to the wrapper script. Below, is the header of a sample file:
+Input files for functional features are automatically generated during the analysis from the SMR input files; however, you need to provided the input file (GWAS summary data) for the phenotype of interest and pass the name of the file (e.g. BMI_PMID30239722) as an argument to the wrapper script. Below, is the header of a sample file:
 
 ```
 zcat BMI_PMID30239722.gz | head
@@ -125,7 +125,7 @@ Example
 ```
 bash obtain_opengwas_file.sh ieu-b-40
 ```
-where ieu-b-40 is the GWAS ID file in OpenGWAS databse.
+where ieu-b-40 is the GWAS ID file in OpenGWAS database.
 
 
 ## Functional data
