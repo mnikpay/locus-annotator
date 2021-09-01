@@ -7,7 +7,7 @@ Understanding the function of a locus using the knowledge available at single-nu
    * [Interpreting the results](#interpreting-the-results)
    * [Input files](#input-files)
    * [Functional data](#functional-data)
-   * [Acknowledgments](#acknowledgments)
+
 
 
 ## Description
