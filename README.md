@@ -1,6 +1,6 @@
 # Locus annotator
-
 Understanding the function of a locus using the knowledge available at single-nucleotide polymorphisms (SNPs)
+For more information, please read the [manuscript](https://www.preprints.org/manuscript/202108.0084/v1) and read the following sections of this readme document:
 
 [Description](#description)
 
