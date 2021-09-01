@@ -47,6 +47,30 @@ The outcome of the analysis is a summary statistics text file, for instance this
 |---------------|-----------|------------------|--------------|---------|--------------|-------|-----------|----------|-------|
 | chr5:95665720 | Causality | PCSK1.13388.57.3 | PMID29875488 | BMI     | PMID30239722 | -0.02 | 0.0020543 | 4.09E-19 | 17    |
 
+**Description of the columns:**
+```
+SearchID: The genomic coordinate of the locus (based on GRCh37)
+
+Test: The type of test that was use (causality or pleiotropy)
+
+Exposure: A biomarker/functional feature
+
+Source: The source where the GWAS data for the exposure was obtained
+
+Outcome: A trait or second biomarker/functional feature
+
+Source: The source where the GWAS data for the outcome was obtained
+
+B: Estimated effect size (beta regression coefficient)
+
+SE: Estimated standard error of beta
+
+P: p-value (significance of estimated beta)
+
+NSNPs: Number of the SNPs in the instrument for the MR analysis
+```
+
+
 The first coulmn indicates your serach id (the genomic coordinate of the locus, based on build GRCh37). The second column indicates the type of test:
 * Causality: which is performed by removing pleiotropic SNPs from the instrument
 * Pleiotropy: which is performed by keeping pleiotropic SNPs from the instrument
