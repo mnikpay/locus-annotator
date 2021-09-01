@@ -43,11 +43,9 @@ bash wrapper.sh chr19:45409039-45412650 LDL_PMID24097068
 
 The outcome of the analysis is a summary statistics text file, for instance this is the output from the Example 2:
 
-| SearchID                | Test      | Exposure_Probe | Exposure_Source | Outcome | Outcome_Source | B     | SE        | P        | N_SNPs |
-|-------------------------|-----------|----------------|-----------------|---------|----------------|-------|-----------|----------|--------|
-| chr19:45409039-45412650 | Causality | cg13375295     | PMID30401456    | LDL     | PMID24097068   | -1.53 | 0.270176  | 1.47E-08 | 3      |
-| chr19:45409039-45412650 | Causality | APOE.2937.10.2 | PMID29875488    | LDL     | PMID24097068   | 0.78  | 0.0400764 | 1.23E-83 | 3      |
-
+| SearchID      | Test      | Exposure         | Source       | Outcome | Outcome      | B     | SE        | P        | NSNPs |
+|---------------|-----------|------------------|--------------|---------|--------------|-------|-----------|----------|-------|
+| chr5:95665720 | Causality | PCSK1.13388.57.3 | PMID29875488 | BMI     | PMID30239722 | -0.02 | 0.0020543 | 4.09E-19 | 17    |
 
 The first coulmn indicates your serach id (the genomic coordinate of the locus, based on build GRCh37). The second column indicates the type of test:
 * Causality: which is performed by removing pleiotropic SNPs from the instrument
