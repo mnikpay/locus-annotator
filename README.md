@@ -53,7 +53,7 @@ The outcome of the analysis (summary statistics) is provided as a csv file, for 
 
 | SearchID      | Test      | Exposure         | Source       | Outcome | Outcome      | B     | SE        | P        | NSNPs |
 |---------------|-----------|------------------|--------------|---------|--------------|-------|-----------|----------|-------|
-| chr5:95665720 | Causality | PCSK1.13388.57.3 | PMID29875488 | BMI     | PMID30239722 | -0.02 | 0.0020543 | 4E-19 | 17    |
+| chr5:95665720 | Causality | PCSK1.13388.57.3 | PMID29875488 | BMI     | PMID30239722 | -0.02 | 0.002 | 4E-19 | 17    |
 
 The column names are described below:
 ```
