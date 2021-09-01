@@ -19,13 +19,14 @@ For more information, please read the [manuscript](https://www.preprints.org/man
 The entire package with input files/exectubales can be obtained from [here](https://filr.ottawaheart.ca/ssf/s/readFile/share/2454/2372143190551438567/publicLink/locus_annotator.zip)
 
 then access it as:
-
+```
 unzip locus_annotator.zip
 
 chmod -R 700 ./locus_annotator
 
 cd ./locus_annotator
 
+```
 To conduct a search, the locus coordinate and the phenotype name must be passed to the wrapper script.
 
 Example1 with genomic position:
