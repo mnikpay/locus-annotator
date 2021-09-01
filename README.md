@@ -131,8 +131,3 @@ where ieu-b-40 is the GWAS ID file in OpenGWAS databse.
 ## Functional data
 
 This pipeline requires functional data (QTLs) in [SMR](https://cnsgenomics.com/software/smr/#DataManagement) format. A number of such files for various functional features can be obtained from [here](https://filr.ottawaheart.ca/ssf/s/readFile/share/1438/6705413317368203034/publicLink/QTL_data.zip) and [SMR website](https://cnsgenomics.com/software/smr/#DataResource).
-
-## Acknowledgments
-* [Compute Canada](https://www.computecanada.ca/)
-* [University of Ottawa Heart Institute](https://www.ottawaheart.ca/)
-* [README Template/DomPizzie](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
