@@ -2,19 +2,18 @@
 
 Understanding the function of a locus using the knowledge available at single-nucleotide polymorphisms (SNPs)
 
-- [Description](#description)
-   - [Getting Started](#getting-started)
-   - [Interpreting the results](#interpreting-the-results)
-   - [Input files](#input-files)
-   - [Functional data](#functional-data)
-
+   * [Description](#description)
+   * [Getting Started](#getting-started)
+   * [Interpreting the results](#interpreting-the-results)
+   * [Input files](#input-files)
+   * [Functional data](#functional-data)
 
 
 ## Description
 
 There are situations when a biologist wants to investigates the function of a locus. e.g.
 
-* Does the rare variant X cause the disease Y?
+- Does the rare variant X cause the disease Y?
 * How is the gene Z being regulated? What would be the consequences of perturbation in its function?
 * What is the function of this unannotated genomic region?
 
