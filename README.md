@@ -12,6 +12,8 @@ There are situations when a biologist wants to invetigates the function of a loc
 
 This UNIX package was designed with the aim to address these issues.
 
+For more information, please read the [manuscript](https://www.preprints.org/manuscript/202108.0084/v1).
+
 ## Getting Started
 
 The entire package with input files/exectubales can be obtained from [here](https://filr.ottawaheart.ca/ssf/s/readFile/share/2454/2372143190551438567/publicLink/locus_annotator.zip)
