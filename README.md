@@ -51,7 +51,7 @@ The first coulmn indicates your serach id (the genomic coordinate of the locus, 
 * Causality: which is performed by removing pleiotropic SNPs from the instrument
 * Pleiotropy: which is performed by keeping pleiotropic SNPs from the instrument
 
-Test of causality allows to undrstand whether chnage in the level of the biomarker (probe/functional feature) impacts a phenotype. In this context, a positive beta indicates a positive association and a negative beta indicates a rverse assocition. For instance, in the example above, we can conclude higher level of PCSK1 is associated with lower BMI. 
+Test of causality allows to undrstand whether chnage in the level of the biomarker (probe/functional feature) impacts a phenotype. In this context, a positive beta indicates a positive association and a negative beta indicates a rverse assocition. For instance, in the example above, we can conclude higher level of PCSK1 is associated with lower BMI. Test of pliotropy is appropriate in sitatiation where the pipeline has identified several functional features and you want to know whether they are being regulated by the same set of SNPs or not.
 
 
 ## Input files
