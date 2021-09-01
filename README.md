@@ -19,7 +19,6 @@ There are situations when a biologist wants to investigates the function of a lo
 
 This UNIX package was designed with the aim to address these issues.
 
-For more information, please read the [manuscript](https://www.preprints.org/manuscript/202108.0084/v1).
 
 ## Getting Started
 
