@@ -51,7 +51,7 @@ bash wrapper.sh chr19:45409039-45412650 LDL_PMID24097068
 
 ## Interpreting the results
 
-The outcome of an analysis is provided as a csv file, for instance this is the output from the Example 1:
+The output of an analysis is provided as a csv file, for instance this is the output from the Example 1:
 
 | SearchID      | Test      | Exposure         | Source       | Outcome | Outcome      | B     | SE        | P        | NSNPs |
 |---------------|-----------|------------------|--------------|---------|--------------|-------|-----------|----------|-------|
