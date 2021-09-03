@@ -26,7 +26,7 @@ This UNIX package was designed with the aim to address these issues.
 
 ## Getting Started
 
-The entire package can be obtained from [here](https://filr.ottawaheart.ca/ssf/s/readFile/share/2454/2372143190551438567/publicLink/locus_annotator.zip)
+The entire package can be obtained from [here](https://filr.ottawaheart.ca/ssf/s/readFile/share/2620/7894010213858160453/publicLink/locus_annotator.zip)
 
 then access it as:
 ```
