@@ -80,7 +80,7 @@ P: p-value (significance of estimated beta)
 NSNPs: Number of the SNPs in the instrument for the MR analysis
 ```
 
-Test of causality allows to understand whether change in the level of the biomarker (probe/functional feature) impacts a phenotype. In this context, a positive beta indicates a positive association and a negative beta indicates a reverse association. For instance, in the example above, we can conclude higher level of PCSK1 is associated with lower BMI. Test of pleiotropy is appropriate in situation where the pipeline has identified several functional features and you want to know whether they are being regulated by the same set of SNPs or not. The differences between the two is that under the causality scenario, we remove the pleiotropic SNPs (Outcome←SNPs→Exposure) from the instrument; whereas, in pleiotropy test we keep them in the instrument.
+Test of causality allows to understand whether change in the level of the biomarker (probe/functional feature) impacts a phenotype. In this context, a positive beta indicates a positive association and a negative beta indicates an inverse association. For instance, in the example above, we can conclude higher level of PCSK1 is associated with lower BMI. Test of pleiotropy is appropriate in situation where the pipeline has identified several functional features and you want to know whether they are being regulated by the same set of SNPs or not. The differences between the two is that under the causality scenario, we remove the pleiotropic SNPs (Outcome←SNPs→Exposure) from the instrument; whereas, in pleiotropy test we keep them in the instrument.
 
 
 ## Input files
